@@ -52,23 +52,35 @@
                 </p>
     
                 <div class="flex gap-[22px]">
-                    <a href="http://">Shop Now <img src="dist/images/shopping-bag.svg" alt="" srcset=""></a>
+                    <a href="http://" class="">
+                        <span class="flex">
+                            <p>Shop Now</p> 
+                            <img src="dist/images/shopping-bag.svg" alt="" srcset="">
+                        </span>
+                    </a>
     
-                    <a href="http://"><img src="dist/images/video-circle.svg" alt=""> View Gallery</a>
+                    <a href="http://" class="flex">
+                        <span class="flex">
+                            <img src="dist/images/video-circle.svg" alt="">
+                            <p>View Gallery</p>
+                        </span> 
+                    </a>
                 </div>
     
     
                 <div>
                     <h5>Limited Stock</h5>
-                    <span>
-                        <p><span>40</span>/100</p>
-                        <p>Sold out</p>
-                    </span>
-    
-                    <span>
-                        <img src="dist/images/Vector.svg" alt="" srcset="">
-                        <p>Hurry Up!</p>
-                    </span>
+                    <div class="flex items-center">
+                        <span class="flex">
+                            <p><span>40</span>/100</p>
+                            <p>Sold out</p>
+                        </span>
+        
+                        <span class="flex ">
+                            <img src="dist/images/Vector.svg" alt="" srcset="">
+                            <p class="-rotate-12">Hurry Up!</p>
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -84,10 +96,10 @@
         </div>
     </header>
 
-    <section>
-        <span>
-            <img src="" alt="">
-            <h2>
+    <section class="flex justify-between items-center">
+        <span class="relative">
+            <img src="dist/images/Frame.svg" alt="" class="absolute -left-3">
+            <h2 class="font-semibold text-[32px] leading-[51px]">
                 Why <br>
                 Choosing Us
             </h2>
@@ -95,8 +107,8 @@
 
 
         <div>
-            <span>
-                <img src="dist/images/Line.svg" alt="" srcset="">
+            <span class="relative">
+                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-2.5 -left-4">
                 <h3>Luxury Quality</h3>
             </span>
 
@@ -108,8 +120,8 @@
         </div>
 
         <div>
-            <span>
-                <img src="dist/images/Line.svg" alt="" srcset="">
+            <span class="relative">
+                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-2.5 -left-4">
                 <h3>Hand-Dyed Fabric</h3>
             </span>
 
@@ -121,8 +133,8 @@
         </div>
 
         <div>
-            <span>
-                <img src="dist/images/Line.svg" alt="" srcset="">
+            <span class="relative">
+                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-2.5 -left-4">
                 <h3>Affordable Price</h3>
             </span>
 
