@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="input.css">
     <title>MEELAH'S THRIFT STORE</title>
 </head>
-<body>
-    <header>
-        <nav class="flex justify-between mb-16">
+<body class="lg:px-[100px]">
+    <header class="">
+        <nav class="flex justify-between mb-16 items-center pt-10">
             <div class="logo">
-                <h1>Meelah'sThriftStore</h1>
+                <h1 class="text-[#000000] font-bold text[24px] leading-6">Meelah'sThriftStore</h1>
             </div>
 
             <div class="basis-[60%] flex gap-[32px] justify-center">
@@ -25,67 +25,71 @@
                 <a href="http://">Contact Us</a>
             </div>
 
-            <div>
-                <a href="http://">Register</a>
-                <a href="http://">Login</a>
+            <div class="font-bold text-[18px] leading-[23px] flex gap-[20px] ">
+                <a href="http://" class="text-[#B35920] border border-[#B35920] py-3 px-6 rounded-[10px] hover:text-[#ffffff] hover:bg-[#B35920]">Register</a>
+                <a href="http://" class="bg-[#B35920] text-[#ffffff] py-3 px-6 rounded-[10px] border border-[#B35920] hover:text-[#B35920] hover:bg-transparent">Login</a>
             </div>
         </nav>
 
         <div class="flex justify-between">
             <div>
-                <span class="flex">
-                    <h3>New Collections</h3>
-                    <img src="dist/images/Star 12.svg" alt="" srcset="">
+                <span class="flex items-center">
+                    <h3 class="font-semibold lg:text-[20px] leading-[25px] text-[#3D3D3DB2]">New Collections</h3>
+                    <img src="dist/images/Star 12.svg" alt="" srcset="" >
                 </span>
     
-                <h1>
-                    Elegance with <br>
-                    Colours and <span class="">Culture.</span>
-                </h1>
+                <div class="">
+                    <h1 class="text-[#333333] font-bold lg:text-[40px] leading-[64px]">
+                        Elegance with <br>
+                        Colours and <span class="text-[#B35920]">Culture</span>.
+                    </h1>
+        
+                    <div class="flex justify-end">
+                        <img src="dist/images/Line 22.svg" alt="" srcset="" class="mr-8">
+                    </div>
+                </div>
     
-                <img src="dist/images/Line 22.svg" alt="" srcset="">
-    
-                <p class="pt-[32px]">
+                <p class="py-[30px] font-normal lg:text-[16px] leading-7 text-[#3D3D3DB2]">
                     We design beautiful patterns  according to the needs <br>
                     of our users where splash of colours meets luxury and <br>
                     comfort to become the piece with the best quality.
                 </p>
     
-                <div class="flex gap-[22px]">
-                    <a href="http://" class="">
-                        <span class="flex">
-                            <p>Shop Now</p> 
+                <div class="flex gap-[22px] w-full items-center pb-[73px]">
+                    <a href="http://" class="bg-[#333333] px-6 py-3 rounded-[10px]">
+                        <span class="flex items-center gap-[22px]">
+                            <p class="text-[#FFFFFF] text-[18px]">Shop Now</p> 
                             <img src="dist/images/shopping-bag.svg" alt="" srcset="">
                         </span>
                     </a>
     
-                    <a href="http://" class="flex">
-                        <span class="flex">
+                    <a href="http://" class="">
+                        <span class="flex ">
                             <img src="dist/images/video-circle.svg" alt="">
-                            <p>View Gallery</p>
+                            <p class="text-[#3D3D3D] text-[18px] leading-[23px] font-semibold">View Gallery</p>
                         </span> 
                     </a>
                 </div>
     
     
                 <div>
-                    <h5>Limited Stock</h5>
-                    <div class="flex items-center">
-                        <span class="flex">
-                            <p><span>40</span>/100</p>
-                            <p>Sold out</p>
+                    <h5 class="text-[#3D3D3D99] text-[16px] leading-[20px] font-semibold pb-2">Limited Stock</h5>
+                    <div class="flex items-center gap-[62px]">
+                        <span class="flex gap-2 items-baseline">
+                            <p class="text-[#3D3D3DB2] text-[20px] leading-[25px] font-semibold"><span class="text-[#B35920] text-[40px] leading-[50px]">40</span>/100</p>
+                            <p class="text-[#3D3D3D] leading-[25px] text-[20px] font-semibold justify-items-end">Sold out</p>
                         </span>
         
                         <span class="flex ">
                             <img src="dist/images/Vector.svg" alt="" srcset="">
-                            <p class="-rotate-12">Hurry Up!</p>
+                            <p class="-rotate-12 text-[#000000] text-[16px] leading-[26px] font-normal">Hurry Up!</p>
                         </span>
                     </div>
                 </div>
             </div>
 
 
-            <div class="flex gap-[22px]">
+            <div class="flex gap-[22px] lg:pb-[100px]">
                 <img src="dist/images/pic1.jpg" alt="" srcset="">
 
                 <div class="flex flex-col gap-10">
@@ -96,7 +100,7 @@
         </div>
     </header>
 
-    <section class="flex justify-between items-center">
+    <section class="flex justify-between items-start pb-10">
         <span class="relative">
             <img src="dist/images/Frame.svg" alt="" class="absolute -left-3">
             <h2 class="font-semibold text-[32px] leading-[51px]">
@@ -108,11 +112,12 @@
 
         <div>
             <span class="relative">
-                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-2.5 -left-4">
-                <h3>Luxury Quality</h3>
+                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-4 -left-4 -z-10">
+                <h3 class="font-semibold text-[20px] leading-8">Luxury Quality</h3>
             </span>
 
-            <p>
+            <p class="text-[16px] leading-[22px] font-normal text-[#3D3D3DB2]">
+                We offer quality pieces that are <br>
                 Our wears are made with the <br>
                 highest quality fabrics and <br>
                 colours. 
@@ -121,11 +126,11 @@
 
         <div>
             <span class="relative">
-                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-2.5 -left-4">
-                <h3>Hand-Dyed Fabric</h3>
+                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-4 -left-4 -z-10">
+                <h3 class="font-semibold text-[20px] leading-8">Hand-Dyed Fabric</h3>
             </span>
 
-            <p>
+            <p class="text-[16px] leading-[22px] font-normal text-[#3D3D3DB2]">
                 We offer quality pieces that are <br>
                 carefully made with hands to satisfy <br>
                 our customer’s pattern choice. 
@@ -134,16 +139,105 @@
 
         <div>
             <span class="relative">
-                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-2.5 -left-4">
-                <h3>Affordable Price</h3>
+                <img src="dist/images/Line.svg" alt="" srcset="" class="absolute top-4 -left-4 -z-50">
+                <h3 class="font-semibold text-[20px] leading-8">Affordable Price</h3>
             </span>
 
-            <p>
+            <p class="text-[16px] leading-[22px] font-normal text-[#3D3D3DB2]">
+                We offer quality pieces that are <br>
                 Our pieces ranging from T-shirts, Bags, <br>
                 Slides, Trending female wears are all <br>
                 affordable to all. 
             </p>
         </div>
     </section>
+
+    <section class="py-[87px]">
+        <div class="flex">
+            <div class="grid grid-cols-2 gap-y-[32px] gap-x-[42px]">
+                <img src="dist/images/pic4.jpg" alt="" srcset="">
+                <img src="dist/images/pic5.jpg" alt="" srcset="">
+                <img src="dist/images/pic6.jpg" alt="" srcset="">
+                <img src="dist/images/pic7.jpg" alt="" srcset="">
+            </div>
+
+            <div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[76px]">
+        <div class="relative my-8">
+            <h1 class="font-bold text-[48px] text-[#333333] leading-[77px] absolute top-10">New Arrivals</h1>
+            <h1 class="text-[#33333333] text-[96px] font-bold leading-[117px">New Arrivals</h1>
+        </div>
+
+        <div class="mt-[30px]">
+            <div>
+                <img src="" alt="" srcset="">
+                <a href="http://">Shop Now</a>
+            </div>
+
+
+            <div>
+                <img src="" alt="" srcset="">
+                <a href="http://">Shop Now</a>
+            </div>
+
+            <div>
+                <img src="" alt="" srcset="">
+                <a href="http://">Shop Now</a>
+            </div>
+
+            <div>
+                <img src="" alt="" srcset="">
+                <a href="http://">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[72px]">
+        <img src="" alt="" srcset="">
+
+        <div>
+            <h1>
+                Join our 
+                <span>Training</span>
+            </h1>
+
+            <p>
+                We train individuals who are passionate about culture and <br>
+                fashion. We have produced thousands of individuals from our <br>
+                training school.
+            </p>
+
+            <a href="http://">Learn More</a>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <p>Subscribe Newsletters</p>
+
+            <span>
+                <input type="email" name="email" id="mail">
+                <a href="mailto:">Subscribe Now</a>
+            </span>
+        </div>
+    </section>
+
+    <footer class="border-b border-[#2B3D51]">
+        <div>
+            <a href="http://">About us</a>
+            <a href="http://">Training</a>
+            <a href="http://">Explore</a>
+            <a href="http://">Features</a>
+        </div>
+
+        <div>
+
+        </div>
+    </footer>
 </body>
 </html>
