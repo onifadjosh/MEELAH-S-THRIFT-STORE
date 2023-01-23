@@ -570,6 +570,10 @@ video {
   margin-top: 30px;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -584,6 +588,14 @@ video {
 
 .basis-\[60\%\] {
   flex-basis: 60%;
+}
+
+.basis-\[50\%\] {
+  flex-basis: 50%;
+}
+
+.basis-\[40\%\] {
+  flex-basis: 40%;
 }
 
 .-rotate-12 {
@@ -758,6 +770,10 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pt-\[87px\] {
+  padding-top: 87px;
+}
+
 .text-\[28px\] {
   font-size: 28px;
 }
@@ -848,6 +864,14 @@ video {
 
 .leading-\[77px\] {
   line-height: 77px;
+}
+
+.leading-\[39px\] {
+  line-height: 39px;
+}
+
+.leading-\[32px\] {
+  line-height: 32px;
 }
 
 .text-\[\#000000\] {
