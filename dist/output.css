@@ -558,6 +558,14 @@ video {
   margin-right: 2rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
 .mt-\[30px\] {
   margin-top: 30px;
 }
@@ -603,6 +611,10 @@ video {
   align-items: baseline;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -643,6 +655,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-\[68px\] {
+  gap: 68px;
+}
+
 .gap-y-\[32px\] {
   row-gap: 32px;
 }
@@ -660,13 +676,25 @@ video {
   border-width: 1px;
 }
 
+.border-l {
+  border-left-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-dashed {
+  border-style: dashed;
 }
 
 .border-\[\#B35920\] {
   --tw-border-opacity: 1;
   border-color: rgb(179 89 32 / var(--tw-border-opacity));
+}
+
+.border-\[\#3D3D3D80\] {
+  border-color: #3D3D3D80;
 }
 
 .border-\[\#2B3D51\] {
@@ -728,6 +756,10 @@ video {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .text-\[18px\] {
@@ -860,6 +892,69 @@ video {
   color: #33333333;
 }
 
+.time::before{
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #B35920;
+  position: absolute;
+  top: -10px;
+  left: -55px;
+}
+
+.time{
+  margin-left: 32px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.before\:text-center::before {
+  content: var(--tw-content);
+  text-align: center;
+}
+
+.before\:text-\[24px\]::before {
+  content: var(--tw-content);
+  font-size: 24px;
+}
+
+.before\:font-semibold::before {
+  content: var(--tw-content);
+  font-weight: 600;
+}
+
+.before\:text-\[\#ffff\]::before {
+  content: var(--tw-content);
+  color: #ffff;
+}
+
+.before\:content-\[\'1\'\]::before {
+  --tw-content: '1';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'2\'\]::before {
+  --tw-content: '2';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'3\'\]::before {
+  --tw-content: '3';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'4\'\]::before {
+  --tw-content: '4';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'5\'\]::before {
+  --tw-content: '5';
+  content: var(--tw-content);
+}
+
 .hover\:bg-\[\#B35920\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(179 89 32 / var(--tw-bg-opacity));
@@ -880,6 +975,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:gap-\[91px\] {
+    gap: 91px;
+  }
+
   .lg\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
