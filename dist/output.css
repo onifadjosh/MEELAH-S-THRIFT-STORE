@@ -1125,6 +1125,14 @@ video {
   text-align: center;
 }
 
+.font-\[\'Montserrat\'\] {
+  font-family: 'Montserrat';
+}
+
+.font-\[\'\'\] {
+  font-family: '';
+}
+
 .text-\[28px\] {
   font-size: 28px;
 }
@@ -1662,6 +1670,10 @@ video {
     font-size: 14px;
   }
 
+  .md\:text-\[35px\] {
+    font-size: 35px;
+  }
+
   .md\:leading-\[64px\] {
     line-height: 64px;
   }
@@ -1838,5 +1850,9 @@ video {
 
   .xl\:text-\[16px\] {
     font-size: 16px;
+  }
+
+  .xl\:text-\[35px\] {
+    font-size: 35px;
   }
 }
