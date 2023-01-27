@@ -14,24 +14,36 @@
 </head>
 <body class="">
     <header class="xl:px-[100px] px-5 ">
+
+        <!-- website navigation (logo,register, log in)-->
         <nav class="flex justify-between mb-16 items-center pt-10">
             <div class="logo">
                 <h1 class="text-[#000000] font-bold md:text-[28px] text-[16px] leading-6 font-['Josefin Sans']">Meelah'sThriftStore</h1>
             </div>
 
-            <div class="hidden basis-[60%] flex gap-[32px] justify-center text-[16px] leading-[25px] font-semibold text-[#3D3D3DB2] font-['Source Sans Pro']">
+            <div class=" nav-menu basis-[70%] flex gap-[32px] justify-between items-center text-[16px] leading-[25px] font-semibold text-[#3D3D3DB2] font-['Source Sans Pro']">
                 <a href="http://" class="text-[#B35920]">Home</a>
                 <a href="http://" class="hover:text-[#B35920]">About</a>
                 <a href="http://" class="hover:text-[#B35920]">Shop</a>
                 <a href="http://" class="hover:text-[#B35920]">Contact Us</a>
+
+                <div class=" font-bold lg:basis-[45%] text-[18px] justify-end leading-[23px] flex gap-[20px] font-['Source Sans Pro']">
+                    <a href="http://" class="text-[#B35920] border border-[#B35920] py-3 px-6 rounded-[10px] hover:text-[#ffffff] hover:bg-[#B35920]">Register</a>
+                    <a href="http://" class="bg-[#B35920] text-[#ffffff] py-3 px-6 rounded-[10px] border border-[#B35920] hover:text-[#B35920] hover:bg-transparent">Login</a>
+                </div>
             </div>
 
-            <div class="hidden font-bold text-[18px] leading-[23px] flex gap-[20px] font-['Source Sans Pro']">
-                <a href="http://" class="text-[#B35920] border border-[#B35920] py-3 px-6 rounded-[10px] hover:text-[#ffffff] hover:bg-[#B35920]">Register</a>
-                <a href="http://" class="bg-[#B35920] text-[#ffffff] py-3 px-6 rounded-[10px] border border-[#B35920] hover:text-[#B35920] hover:bg-transparent">Login</a>
+            
+
+            <!-- hamburger for medium to small screens -->
+            <div class="hamburger lg:hidden">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </nav>
 
+        <!--hero section comprises of pictures and content for user understanding-->
         <div class="flex justify-between lg:flex-row flex-col ">
             <div>
                 <span class="flex items-center w-full lg:w-fit justify-center lg:justify-start font-['Source Sans Pro']">
@@ -46,7 +58,7 @@
                     </h1>
         
                     <div class="flex lg:justify-end justify-center">
-                        <img src="dist/images/Line 22.svg" alt="" srcset="" class=" ml-[9.5rem] lg:ml-0 max-w-[30%] lg:max-w-[100%]">
+                        <img src="dist/images/Line 22.svg" alt="" srcset="" class=" ml-[11.5rem] lg:ml-0 max-w-[30%] lg:max-w-[100%]">
                     </div>
                 </div>
     
@@ -101,6 +113,7 @@
         </div>
     </header>
 
+    <!--second website section  -->
     <section class="flex flex-col md:flex-row justify-between items-start pb-10 xl:px-[100px] px-5">
         <span class="relative flex justify-center w-full md:w-fit font-['Montserrat']">
             <img src="dist/images/Frame.svg" alt="" class="absolute md:-left-3 left-[3.0rem]">
@@ -153,6 +166,7 @@
         </div>
     </section>
 
+    <!--section three of the webpage-->
     <section class="pt-[87px] xl:px-[100px] px-5">
         <div class="flex flex-col md:flex-row md:gap-[91px] gap-6">
             <div class="grid  grid-cols-2 gap-y-[32px] gap-x-[42px] basis-[60%]">
@@ -189,6 +203,8 @@
         </div>
     </section>
 
+
+    <!--section four of the webpage-->
     <section class="py-[76px] xl:px-[100px] px-5 font-['Montserrat']">
         <div class="relative my-8 font-['Montserrat']">
             <h1 class="font-bold text-[32px] md:text-[48px] text-[#333333] leading-[77px] absolute md:top-10 top-[0.2rem]">New Arrivals</h1>
@@ -221,6 +237,8 @@
         </div>
     </section>
 
+
+    <!--section five of the webpage-->
     <section class="md:py-[72px] py-[] flex flex-col md:flex-row items-center justify-between xl:px-[100px] px-5">
         <img src="dist/images/pp1.jpeg" alt="" srcset="" class="max-w-[50%] rounded-2xl h-1/3 mb-2 md:mb-0">
 
@@ -240,6 +258,8 @@
         </div>
     </section>
 
+
+    <!--section six of the webpage-->
     <section class="px-0 relative my-[40px] ">
         <img src="dist/images/Shape.svg" alt="" srcset="" class="hidden md:block">
         <div class=" lg:py-[75px] py-[40px] px-5  xl:px-[96px] w-[90%]  bg-[#B35920] xl:w-[85%] xl:mx-[100px] mx-5 flex items-center justify-between rounded-[12px]  md:absolute top-[60px] shadow-md shadow-[#B359204D]">
@@ -247,11 +267,13 @@
 
             <span class="relative basis-[60%] font-['Source Sans Pro']">
                 <input type="email" name="email" id="mail" placeholder="Enter your email" class="md:py-[30px] py-[20px] px-[8px] md:px-[28px]  w-full rounded-[5px] outline-none placeholder:text-[#2B3D51] placeholder:text-[10px] md:placeholder:text-[16px]">
-                <a href="mailto:" class="font-normal leading-[23px] md:text-[19px] text-[7px] md:py-[18.66px] md:px-[44.33px] px-2 py-2 text-[#ffffff] bg-[#333333] absolute top-[10px] lg:right-[35px] right-[12px] border border-[#333333] hover:bg-transparent hover:text-[#333333]">Subscribe Now</a>
+                <a href="mailto:" class="font-normal leading-[23px] md:text-[12px] text-[7px] md:py-[18.66px] md:px-[44.33px] px-2 py-2 text-[#ffffff] bg-[#333333] absolute top-[10px] lg:right-[35px] right-[12px] border border-[#333333] hover:bg-transparent hover:text-[#333333]">Subscribe Now</a>
             </span>
         </div>
     </section>
 
+
+    <!--webpage's footer section-->
     <footer class="border-b border-[#2B3D51] md:mt-[150px] xl:mx-[96px] mx-5 mb-[33px] font-['Source Sans Pro']">
         <div class="flex items-center justify-between  text-[#0A142F] mb-[32px] gap-4">
             <div class="flex font-semibold md:text-[19px] text-[14px] leading-[23px] md:w-1/2  w-3/4 justify-between">
@@ -280,5 +302,6 @@
         </span>
     </div>
 </body>
+<!--webpage's javascript for hamburger functionality-->
 <script src="src/index.js"></script>
 </html>
