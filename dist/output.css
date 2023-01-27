@@ -1830,6 +1830,14 @@ video {
     gap: 62px;
   }
 
+  .xl\:gap-\[40px\] {
+    gap: 40px;
+  }
+
+  .xl\:gap-\[5px\] {
+    gap: 5px;
+  }
+
   .xl\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
