@@ -1718,6 +1718,10 @@ video {
     margin-left: 0px;
   }
 
+  .lg\:mr-9 {
+    margin-right: 2.25rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1753,6 +1757,10 @@ video {
 
   .lg\:gap-\[91px\] {
     gap: 91px;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
   }
 
   .lg\:px-\[100px\] {
