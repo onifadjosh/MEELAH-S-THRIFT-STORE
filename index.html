@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="input.css">
     <script src="https://kit.fontawesome.com/54e86b48e4.js" crossorigin="anonymous"></script>
     <title>MEELAH'S THRIFT STORE</title>
@@ -51,7 +52,7 @@
                     <img src="dist/images/Star 12.svg" alt="" srcset="" >
                 </span>
     
-                <div class="">
+                <div class="" data-aos="fade-up" data-aos-duration="3000">
                     <h1 class="text-[#333333] font-['Montserrat'] font-bold md:text-[35px] lg:text-[30px] xl:text-[35px] text-[30px] md:leading-[64px] text-center lg:text-start">
                         Elegance with <br>
                         Colours and <span class="text-[#B35920]">Culture</span>.
@@ -103,11 +104,11 @@
 
 
             <div class="flex gap-[22px] lg:pb-[100px] pb-[40px] basis-[45%]">
-                <img src="dist/images/pic1.jpg" alt="" srcset="" class="basis-1/2 max-w-[50%]">
+                <img src="dist/images/pic1.jpg" alt="" srcset="" class="basis-1/2 max-w-[50%]" data-aos="zoom-in" data-aos-duration="3000">
 
                 <div class="flex flex-col md:gap-10 gap-5">
-                    <img src="dist/images/pic2.jpg" alt="" srcset="" class="">
-                    <img src="dist/images/pic3.jpg" alt="" srcset="" class="">
+                    <img src="dist/images/pic2.jpg" alt="" srcset="" class="" data-aos="zoom-in" data-aos-duration="3000">
+                    <img src="dist/images/pic3.jpg" alt="" srcset="" class="" data-aos="zoom-in" data-aos-duration="3000">
                 </div>
             </div>
         </div>
@@ -206,9 +207,9 @@
 
     <!--section four of the webpage-->
     <section class="py-[76px] xl:px-[100px] px-5 font-['Montserrat']">
-        <div class="relative my-8 font-['Montserrat']">
-            <h1 class="font-bold text-[32px] md:text-[48px] text-[#333333] leading-[77px] absolute md:top-10 top-[0.2rem]">New Arrivals</h1>
-            <h1 class="text-[#33333333] text-[50px] md:text-[96px] font-bold leading-[117px">New Arrivals</h1>
+        <div class="relative md:my-8 font-['Montserrat']">
+            <h1 class="font-bold text-[32px] md:text-[48px] text-[#333333] leading-[77px] absolute md:top-[1.5rem] top-[1.2rem]">New Arrivals</h1>
+            <h1 class="text-[#33333333] text-[50px] md:text-[96px] font-bold leading-[117px] " data-aos="zoom-in-up" data-aos-duration="3000">New Arrivals</h1>
         </div>
 
         <div class="mt-[30px] flex md:flex-row  gap-[25px]">
@@ -260,7 +261,7 @@
 
 
     <!--section six of the webpage-->
-    <section class="px-0 relative my-[40px] ">
+    <section class="px-0 relative my-[40px] " data-aos="zoom-in" data-aos-duration="3000">
         <img src="dist/images/Shape.svg" alt="" srcset="" class="hidden md:block">
         <div class=" lg:py-[75px] py-[40px] px-5  xl:px-[96px] w-[90%]  bg-[#B35920] xl:w-[85%] xl:mx-[100px] mx-5 flex items-center justify-between rounded-[12px]  md:absolute top-[60px] shadow-md shadow-[#B359204D]">
             <p class="font-normal leading-10 lg:text-[33px] md:text-[20px] text-[10px] text-[#ffffff] font-['Montserrat']">Subscribe Broadcast</p>
@@ -301,6 +302,11 @@
             <a href="http://"  class="hover:text-[#B35920] text-[10px] md:text-[16px]">Privacy Policy</a>
         </span>
     </div>
+    <!-- adding animation on scroll to the webpage -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 <!--webpage's javascript for hamburger functionality-->
 <script src="src/index.js"></script>

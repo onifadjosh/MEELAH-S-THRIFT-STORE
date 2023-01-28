@@ -557,6 +557,10 @@ video {
   right: 12px;
 }
 
+.top-\[1\.2rem\] {
+  top: 1.2rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1074,6 +1078,10 @@ video {
   line-height: 21px;
 }
 
+.leading-\[117px\] {
+  line-height: 117px;
+}
+
 .text-\[\#000000\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1311,6 +1319,15 @@ video {
 
   .md\:top-10 {
     top: 2.5rem;
+  }
+
+  .md\:top-\[1\.5rem\] {
+    top: 1.5rem;
+  }
+
+  .md\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .md\:mb-10 {
