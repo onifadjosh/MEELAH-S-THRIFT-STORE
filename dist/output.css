@@ -785,6 +785,10 @@ video {
        column-gap: 42px;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
