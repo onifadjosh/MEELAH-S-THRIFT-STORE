@@ -631,6 +631,10 @@ video {
   height: 33.333333%;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -849,6 +853,54 @@ video {
 .bg-\[\#333333\] {
   --tw-bg-opacity: 1;
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'sr\'\)\] {
+  background-image: url('sr');
+}
+
+.bg-\[url\(\'dist\'\)\] {
+  background-image: url('dist');
+}
+
+.bg-\[url\(\'dist\/image\'\)\] {
+  background-image: url('dist/image');
+}
+
+.bg-\[url\(\'dist\/images\/\'\)\] {
+  background-image: url('dist/images/');
+}
+
+.bg-\[url\(\'dist\/images\/pp1\.jpeg\'\)\] {
+  background-image: url('dist/images/pp1.jpeg');
+}
+
+.bg-\[url\(\'\/dist\/images\/pp1\.jpeg\'\)\] {
+  background-image: url('/dist/images/pp1.jpeg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .px-5 {
