@@ -792,6 +792,10 @@ video {
   border-radius: 5px;
 }
 
+.rounded-\[14px\] {
+  border-radius: 14px;
+}
+
 .rounded-t-\[5px\] {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
